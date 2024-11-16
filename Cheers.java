@@ -10,12 +10,12 @@ public class Cheers {
                 for(int i = 0 ; i < name.length(); i++) {
                         char currentChar = name.charAt(i);
                         if(anLetters.indexOf(currentChar) != -1) {
-                                article = "an";
+                                System.out.println("Give me an " + currentChar + ": " + currentChar + "!");
+
                         }
                         else { 
-                                article = "a";
+                                System.out.println("Give me a  " + currentChar + ": " + currentChar + "!");
                         }
-                        System.out.println("Give me " + article + " " + currentChar + ": " + currentChar + "!");
                 }
                 System.out.println("What does that spell??");
 
