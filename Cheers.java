@@ -4,7 +4,7 @@ public class Cheers {
                 String name = args[0];
                 int cheeringRepeatCount = Integer.parseInt(args[1]);
 
-                String anLetters = "AEFHILMNORS";
+                String anLetters = "AEFHILMNORSX";
 
                 name = name.toUpperCase();
                 for(int i = 0 ; i < name.length(); i++) {
